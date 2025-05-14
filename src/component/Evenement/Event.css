@@ -34,9 +34,9 @@
 }
 @media (max-width:768px) {
     .contenaire {
-        width: 350px;
+        width: 330px;
         height: auto;
-        margin-left: 10%;
+        margin-left: 2%;
     }
     .imcomp{
     width: 300px;

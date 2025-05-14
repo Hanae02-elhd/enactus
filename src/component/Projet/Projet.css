@@ -51,9 +51,9 @@
 }
 @media (max-width:768px) {
     .carte {
-        width: 400px;
+        width: 350px;
         height: auto;
-        margin-left: 9.5%;
+        margin-left: 2%;
     }
     .tr {
         margin: 0;
