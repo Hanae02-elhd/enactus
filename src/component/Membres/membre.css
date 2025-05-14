@@ -105,6 +105,16 @@ td {
 
     .arrondie {
         width: 73px;
+        font-size: small;
     }
 
+    .poste {
+        width: 73px;
+        font-size: small;
+    }
+
+    .nom {
+        width: 73px;
+        font-size: small;
+    }
 }
