@@ -1,87 +1,104 @@
-
-#membre{
-   width: 60%;
-   margin-left: 20%;
-   border-spacing: 20px 30px;
+#membre {
+    width: 60%;
+    margin-left: 20%;
+    border-spacing: 20px 30px;
 }
 
-.line{
+.line {
     border-bottom: 2px solid #FFC222;
 }
+
 td {
     text-align: center;
 }
-.arrondie{
+
+.arrondie {
     background-color: rgb(61, 58, 58);
     /*background-color: rgb(244, 239, 239);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid rgb(229, 224, 224);*/
     border-radius: 10px;
-    height: 150px; 
+    height: 150px;
     width: 100px;
-    animation: anim 2s; 
+    animation: anim 2s;
 }
-.tit{
+
+.tit {
     text-align: center;
     color: #FFC222;
 }
-@keyframes anim{
-    from{
+
+@keyframes anim {
+    from {
         transform: translateX(-100%);
     }
-    to{
+
+    to {
         transform: translate(0%);
     }
 }
-@keyframes anima{
-    from{
+
+@keyframes anima {
+    from {
         transform: translateX(100%);
     }
-    to{
+
+    to {
         transform: translate(0%);
     }
 }
-.poste{
+
+.poste {
     color: #FFC222;
     font-weight: bold;
 }
 
-.nom{
+.nom {
     font-weight: bold;
-    height: 150px; 
+    height: 150px;
     width: 150px;
     border: 1px solid rgb(229, 224, 224);
     border-radius: 10px;
     background-color: rgb(244, 239, 239);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.poste{
-    height: 150px; 
+
+.poste {
+    height: 150px;
     width: 150px;
     border: 1px solid rgb(229, 224, 224);
     border-radius: 10px;
     background-color: rgb(244, 239, 239);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    animation: anima 2s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: anima 2s;
 }
-.arrondie:hover{
+
+.arrondie:hover {
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0 4px 8px #FFC222;
 }
-.poste:hover{
+
+.poste:hover {
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0 4px 8px #FFC222;
 }
-.nom:hover{
+
+.nom:hover {
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0 4px 8px #FFC222;
 }
 
 @media (max-width:768px) {
-    #membre{
-        margin-left: -1%;
+    #membre {
+        width: 100%;
+        border-spacing: 5px 5px;
+    }
+
+    .imb {
+        width: 120px;
+        height: 120px;
     }
 }
