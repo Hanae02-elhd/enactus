@@ -42,9 +42,10 @@ ul li a.nav:hover {
 }
 
 @media (max-width:768px) {
-      #ul1 li {
-        margin: 0 8px;  
+    #ul1 li {
+        margin: 0 5px;
     }
+
     .log {
         width: 70px;
         height: 40px;
@@ -54,7 +55,7 @@ ul li a.nav:hover {
     #ul1 {
         background-color: black;
         color: white;
-        font-size: 14px;
+        font-size: 11px;
         margin-left: -719px;
         height: 12%;
         display: flex;
