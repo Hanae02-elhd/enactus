@@ -1,4 +1,4 @@
-#f{
+#f {
     margin-bottom: 0%;
     background-color: black;
     text-align: center;
@@ -6,38 +6,43 @@
     width: 100%;
     margin-bottom: -25%;
 }
-.icone{
+
+.icone {
     height: 30px;
-    width:30px;
+    width: 30px;
     border-radius: 50%;
 }
-.icone:hover{
+
+.icone:hover {
     transform: scale(1.2);
     transition: 0.1s;
     border: 2px solid #FFC222;
 }
 
-h3{
+h3 {
     color: #FFC222;
     text-transform: capitalize;
 }
-#foot{
+
+#foot {
     text-align: center;
-    
+
 }
-#foot a{
+
+#foot a {
     margin: 0 20px;
 }
-#loc{
+
+#loc {
     color: white;
 }
 
-h6{
-    color:white;
+h6 {
+    color: white;
 }
 
 @media (max-width:768px) {
-    #f{
-        margin-right: -16px;
+    #f {
+        margin-right: auto;
     }
 }
