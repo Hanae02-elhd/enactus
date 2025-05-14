@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/enactus/static/css/main.2546848e.css",
-    "main.js": "/enactus/static/js/main.663888f0.js",
+    "main.js": "/enactus/static/js/main.01794144.js",
     "static/js/453.a6cf2745.chunk.js": "/enactus/static/js/453.a6cf2745.chunk.js",
     "static/media/competion.JPG": "/enactus/static/media/competion.b99ea40bfa04dcf10b57.JPG",
     "static/media/integration.JPG": "/enactus/static/media/integration.b22b7d78cb6dc44a32fe.JPG",
@@ -41,11 +41,11 @@
     "static/media/fsbm.png": "/enactus/static/media/fsbm.58b0455c83a7456f4e29.png",
     "index.html": "/enactus/index.html",
     "main.2546848e.css.map": "/enactus/static/css/main.2546848e.css.map",
-    "main.663888f0.js.map": "/enactus/static/js/main.663888f0.js.map",
+    "main.01794144.js.map": "/enactus/static/js/main.01794144.js.map",
     "453.a6cf2745.chunk.js.map": "/enactus/static/js/453.a6cf2745.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2546848e.css",
-    "static/js/main.663888f0.js"
+    "static/js/main.01794144.js"
   ]
 }
